@@ -1,1 +1,4 @@
-postgres cannot access the server configuration file "/usr/local/pgsql/data/postgresql.conf": No such file or directory
+LOG:  database system was shut down at 2014-10-26 15:01:41 CDT
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "lets_chill_development" does not exist
