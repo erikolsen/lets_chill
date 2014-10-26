@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 20141026223420) do
     t.datetime "updated_at"
     t.string   "first_name"
     t.string   "last_name"
-    t.integer  "phone_number"
+    t.string   "phone_number"
     t.string   "image_url"
   end
 

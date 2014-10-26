@@ -2,3 +2,20 @@ LOG:  database system was shut down at 2014-10-26 15:01:41 CDT
 LOG:  autovacuum launcher started
 LOG:  database system is ready to accept connections
 FATAL:  database "lets_chill_development" does not exist
+ERROR:  value "6605557330" is out of range for type integer
+STATEMENT:  INSERT INTO "users" ("created_at", "email", "encrypted_password", "first_name", "last_name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+ERROR:  value "6605557330" is out of range for type integer
+STATEMENT:  INSERT INTO "users" ("created_at", "email", "encrypted_password", "first_name", "last_name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+ERROR:  database "lets_chill_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "lets_chill_development"
+ERROR:  database "lets_chill_development" already exists
+STATEMENT:  CREATE DATABASE "lets_chill_development" ENCODING = 'unicode'
+FATAL:  terminating autovacuum process due to administrator command
+ERROR:  database "lets_chill_development" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+STATEMENT:  DROP DATABASE IF EXISTS "lets_chill_development"
+ERROR:  value "8888888888" is out of range for type integer
+STATEMENT:  INSERT INTO "users" ("created_at", "email", "encrypted_password", "first_name", "last_name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
+ERROR:  value "9999999999" is out of range for type integer
+STATEMENT:  INSERT INTO "users" ("created_at", "email", "encrypted_password", "first_name", "last_name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"
