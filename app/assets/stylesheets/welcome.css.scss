@@ -1,27 +1,18 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-	body {
-      @include size(100%);
-  	  @include linear-gradient(#D9EFF5, #FFFFFF);
-	}
-
-	.ice-cube {
-      @include omega();
-	  opacity: 0.6;
-	}
-	.circle {
-        @include outer-container();
-		border-radius: 50%;
-        @include size(6em);
-		border: solid lightblue;
-		margin: 25%;
-		padding: 5%;
-		text-align: center;
-		font-size: 5em;
-		color: blue;
-		background-color: #f3fafc;
-        line-height: 4em;
-	} a {
-        text-decoration: none;
-    }
+.circle {
+      @include outer-container();
+	border-radius: 50%;
+      @include size(6em);
+	border: solid lightblue;
+	margin: 25%;
+	padding: 5%;
+	text-align: center;
+	font-size: 5em;
+	color: blue;
+	background-color: #f3fafc;
+      line-height: 4em;
+} a {
+      text-decoration: none;
+  }

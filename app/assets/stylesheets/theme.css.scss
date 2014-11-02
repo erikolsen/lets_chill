@@ -1,0 +1,21 @@
+html {
+	body {
+      @include size(100%);
+  	  @include linear-gradient(#D9EFF5, #FFFFFF);
+	}
+
+	.ice-cube {
+    float: left;
+	  opacity: 0.6;
+	}
+    @include size(100%);
+	  @include linear-gradient(#D9EFF5, #FFFFFF);
+
+  .container {
+    clear: both;
+    @include size(100%);
+    @include outer-container;
+    @include span-columns(6);
+    @include shift(3);
+  }
+}
